@@ -6,6 +6,15 @@ public class LivingThing {
     private int attack;
     private boolean dead;
 
+
+    /**
+     *コンストラクタ。
+     * @param name
+     * @param maximumHP
+     * @param attack
+     */
+
+
     public LivingThing (String name, int maximumHP, int attack) {
         this.name = name;
         hitPoint = maximumHP;
